@@ -1,0 +1,117 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: rgb(205,204,203);
+  font-family: Sans-Serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  width: 90%;
+  height: 85vh;
+  border-radius: 10px;
+  display: flex;
+  background: white;
+  box-shadow: 0px 0px 15px #00000038;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#display{
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid grey;
+}
+
+#history{
+  width: 100%;
+  height: 33%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  color: gray;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+#result{
+  width: 100%;
+  height: 67%;
+  padding: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+}
+
+.error{
+  color: red;
+}
+
+.buttons{
+  width: 100%;
+  height: 80%;
+  margin: 0px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+
+.row{
+  width: 100%;
+  height: calc(100%/5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+button:active{
+  transform: scale(0.7);
+  outline: none;
+}
+
+.empty{
+  visibility: hidden;
+}
+
+.operator{
+  background:#fcc8e7;
+}
+
+.operator:nth-of-type(2){
+  background:#eda400;
+}
+
+.operator:nth-of-type(1){
+  background:#c00500;
+}
+
+#equal {
+  background:#01b734;
+}
