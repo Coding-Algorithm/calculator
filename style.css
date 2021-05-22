@@ -18,6 +18,7 @@ main{
 #container{
   width: 90%;
   height: 80vh;
+  background:purple;
   border-radius: 10px;
   display: flex;
   background: white;
