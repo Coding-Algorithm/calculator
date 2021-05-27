@@ -84,7 +84,7 @@ main{
 
 .row button{
   width: 20%;
-  height: 50px;
+  height: 100%;
   border: none;
   border-radius: 50%;
   background:white;
